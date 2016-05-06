@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b397eb-2042-4e2e-a7e0-888d9ba71fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BnS_Clarity/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BnS_Clarity/secret_key.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BnS_Clarity/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BnS_Clarity/settings.py" afterPath="$PROJECT_DIR$/BnS_Clarity/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BnS_Clarity/secret_key.py" afterPath="$PROJECT_DIR$/BnS_Clarity/secret_key.py" />
     </list>
     <ignored path="BnS_Clarity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +38,20 @@
         </entry>
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BnS_Clarity/.gitignore">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.028052805">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secret_key.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BnS_Clarity/secret_key.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -117,16 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secret_key.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BnS_Clarity/secret_key.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -196,9 +195,9 @@
         <option value="$PROJECT_DIR$/clarity/templates/clarity/base_visitor.html" />
         <option value="$PROJECT_DIR$/BnS_Clarity/wsgi.py" />
         <option value="$PROJECT_DIR$/BnS_Clarity/urls.py" />
-        <option value="$PROJECT_DIR$/BnS_Clarity/secret_key.py" />
         <option value="$PROJECT_DIR$/BnS_Clarity/settings.py" />
         <option value="$PROJECT_DIR$/BnS_Clarity/.gitignore" />
+        <option value="$PROJECT_DIR$/BnS_Clarity/secret_key.py" />
       </list>
     </option>
   </component>
@@ -381,8 +380,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yicheng Gong\Desktop\Django Projects\BnS_Clarity\clarity\templates" />
       <recent name="C:\Users\Yicheng Gong\Desktop\Django Projects\BnS_Clarity" />
+      <recent name="C:\Users\Yicheng Gong\Desktop\Django Projects\BnS_Clarity\clarity\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -951,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BnS_Clarity/secret_key.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BnS_Clarity/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -969,10 +960,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BnS_Clarity/.gitignore">
+    <entry file="file://$PROJECT_DIR$/BnS_Clarity/secret_key.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028052805">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
