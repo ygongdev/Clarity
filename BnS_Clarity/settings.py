@@ -122,7 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 
-STATIC_ROOT = 'staticfiles' #os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT =  os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
 """STATICFILES_DIRS = (
@@ -136,3 +136,35 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
                        'django.contrib.staticfiles.finders.AppDirectoriesFinder',
                        )"""
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'logfile': {
+            'class': 'logging.handlers.WatchedFileHandler',
+            'filename': '/var/log/django/error.log'
+        },
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        'django': {
+            'handlers': ['logfile'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+    }
+}
