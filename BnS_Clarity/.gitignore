@@ -1,1 +1,2 @@
-/secret_key.py
+# Ignore password file
+BnS_Clarity/secret_key.py
