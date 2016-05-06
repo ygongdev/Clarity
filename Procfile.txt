@@ -1,2 +1,2 @@
+web: python manage.py collectstatic --noinput;
 web: gunicorn BnS_Clarity.wsgi --log-file -
-web: python project/manage.py collectstatic --noinput
