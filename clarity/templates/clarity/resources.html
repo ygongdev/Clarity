@@ -1,0 +1,11 @@
+{% extends 'clarity/base.html' %}
+{% block title %}Resources{% endblock %}
+{% block resources_active %}active{% endblock %}
+{% block body %}
+<h1>Resources currently under construction, be patient!</h1>
+{% include 'clarity/base_table.html' %}
+
+<button type="submit" class="btn btn-success">
+    <a href="{% url 'clarity:add_info' %}" style="text-decoration:none; color:black">Add</a>
+</button>
+{% endblock %}

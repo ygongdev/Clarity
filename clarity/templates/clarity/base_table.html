@@ -1,0 +1,33 @@
+
+<div id="section">
+    <div class="container" style="overflow:auto">
+        <table class="table table-bordered table-hover" style="text-align:left; background:white">
+        {% block thead %}
+        <tr>
+            <th>Index</th>
+            <th>Category</th>
+            <th>Link</th>
+            <th>Action</th>
+        </tr>
+        {% endblock %}
+        {% block tbody %}
+        {% for field in info.all %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ field.category }}</td>
+            <td><a href="{{field.link}}" style="text-decoration:none; color:black">{{ field.link }}</a></td>
+            <td>
+                <form action="{% url 'clarity:delete_info' field.id %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="info_id" value="{{ field.id }}" />
+                    <button type="submit" class="btn btn-danger btn-xs">
+                        <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+        {% endblock %}
+        </table>
+    </div>
+</div>

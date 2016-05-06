@@ -1,0 +1,23 @@
+
+{% for field in form %}
+    {% if field.name == "category" %}
+    <div class="form-group">
+        <label class="control-label col-sm-2">Category</label>
+        <div class="col-sm-10">
+            <select id="cat" name="category" class="form-control" style="margin-left:165px; width:180px">
+            {% for category in categories %}
+            <option value="{{category}}">{{ category }}</option>
+            {% endfor %}
+            </select>
+        </div>
+    </div>
+    {% else %}
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <span class="text-danger small">{{ field.errors }}</span>
+        </div>
+        <label class="control-label col-sm-2">{{ field.label_tag }}</label>
+        <div class="col-sm-10">{{ field }}</div>
+    </div>
+{% endif %}
+{% endfor %}
