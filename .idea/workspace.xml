@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1b397eb-2042-4e2e-a7e0-888d9ba71fc7" name="Default" comment="" />
+    <list default="true" id="e1b397eb-2042-4e2e-a7e0-888d9ba71fc7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BnS_Clarity/urls.py" afterPath="$PROJECT_DIR$/BnS_Clarity/urls.py" />
+    </list>
     <ignored path="BnS_Clarity.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BnS_Clarity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8052806">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding>
                 <element signature="e#312#321#0" expanded="true" />
@@ -115,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BnS_Clarity/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.6452145">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="e#644#685#0" expanded="true" />
               </folding>
@@ -179,11 +181,11 @@
         <option value="$PROJECT_DIR$/clarity/urls.py" />
         <option value="$PROJECT_DIR$/clarity/models.py" />
         <option value="$PROJECT_DIR$/clarity/views.py" />
-        <option value="$PROJECT_DIR$/BnS_Clarity/urls.py" />
         <option value="$PROJECT_DIR$/clarity/templates/clarity/login.html" />
         <option value="$PROJECT_DIR$/BnS_Clarity/wsgi.py" />
         <option value="$PROJECT_DIR$/clarity/templates/clarity/base.html" />
         <option value="$PROJECT_DIR$/BnS_Clarity/settings.py" />
+        <option value="$PROJECT_DIR$/BnS_Clarity/urls.py" />
       </list>
     </option>
   </component>
@@ -859,16 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BnS_Clarity/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#644#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clarity/templates/clarity/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -903,10 +895,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BnS_Clarity/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8052806">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="e#312#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BnS_Clarity/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6452145">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#644#685#0" expanded="true" />
           </folding>
         </state>
       </provider>

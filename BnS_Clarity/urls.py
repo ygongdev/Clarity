@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from . import settings
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'clarity/', include('clarity.urls', namespace='clarity')),
     url(r'^', include('clarity.urls')),
+    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 
 ]
 
