@@ -122,7 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 
-STATIC_ROOT =  os.path.join(PROJECT_ROOT, 'staticfiles')
+#STATIC_ROOT =  os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'clarity/static' )
 STATIC_URL = '/static/'
 
 """STATICFILES_DIRS = (
