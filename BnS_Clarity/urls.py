@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'clarity/', include('clarity.urls', namespace='clarity')),
     url(r'^', include('clarity.urls')),
+
 ]
 
