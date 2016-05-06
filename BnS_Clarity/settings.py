@@ -136,7 +136,7 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
                        'django.contrib.staticfiles.finders.AppDirectoriesFinder',
                        )"""
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-LOGGING = {
+"""LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'filters': {
@@ -167,4 +167,4 @@ LOGGING = {
             'propagate': False,
         },
     }
-}
+}"""

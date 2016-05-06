@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b397eb-2042-4e2e-a7e0-888d9ba71fc7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BnS_Clarity/settings.py" afterPath="$PROJECT_DIR$/BnS_Clarity/settings.py" />
     </list>
     <ignored path="BnS_Clarity.iws" />
@@ -60,8 +58,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BnS_Clarity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.047855">
-              <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+            <state vertical-scroll-proportion="1.0280528">
+              <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
               <folding>
                 <element signature="e#312#321#0" expanded="true" />
               </folding>
@@ -956,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BnS_Clarity/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.047855">
-          <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+        <state vertical-scroll-proportion="1.0280528">
+          <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
           <folding>
             <element signature="e#312#321#0" expanded="true" />
           </folding>
