@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import dj_database_url
-from . import secret_key
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -125,7 +125,7 @@ USE_TZ = True
 
 
 #STATIC_ROOT =  os.path.join(PROJECT_ROOT, 'staticfiles')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles' )
+STATIC_ROOT = os.path.join(BASE_DIR, 'BnS_Clarity/staticfiles' )
 STATIC_URL = '/static/'
 
 """STATICFILES_DIRS = (
