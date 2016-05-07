@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import dj_database_url
+from . import secret
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -24,7 +25,8 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET']
+SECRET_KEY = secret.get_secret_key()
+# os.environ['SECRET']
     #'*#@41#w3g=p5_i&us2cl763vc6!+6vi_)x^--zdx71_6cpn+)-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
